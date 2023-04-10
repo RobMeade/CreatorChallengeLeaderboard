@@ -17,8 +17,6 @@ class PCCE_SESSION_API ULeaderboardBPFunctionLibrary : public UBlueprintFunction
 
 
 public:
-	//UFUNCTION(BlueprintPure, meta = (DisplayName = "SortTopScores"), Category = "Leaderboard")
-	//static void SortTopScores(UPARAM(ref) TArray<FTopScore>& InTopScores, TArray<FTopScore>& OutTopScores);
 
 	UFUNCTION(BlueprintPure = false, meta = (DisplayName = "SortTopScores"), Category = "Leaderboard")
 	static void SortTopScores(UPARAM(ref) TArray<FTopScore>& InTopScores);

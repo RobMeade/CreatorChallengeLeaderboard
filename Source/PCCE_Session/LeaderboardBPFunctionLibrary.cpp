@@ -3,16 +3,6 @@
 
 #include "LeaderboardBPFunctionLibrary.h"
 
-//void ULeaderboardBPFunctionLibrary::SortTopScores(TArray<FTopScore>& InTopScores, TArray<FTopScore>& OutTopScores)
-//{
-//	if (InTopScores.Num() > 1)
-//	{
-//		InTopScores.Sort();
-//	}
-//
-//	OutTopScores = InTopScores;
-//}
-
 void ULeaderboardBPFunctionLibrary::SortTopScores(TArray<FTopScore>& InTopScores)
 {
 	if (InTopScores.Num() > 1)
